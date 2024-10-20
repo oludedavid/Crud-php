@@ -11,7 +11,6 @@ if (isset($_POST['id']) && isset($_POST['task_description'])) {
     
     // Execute the query
     if ($mysqli->query($sql)) {
-        // Redirect back to the main page
         header("Location: index.php");
     } else {
         echo "Error: " . $mysqli->error;

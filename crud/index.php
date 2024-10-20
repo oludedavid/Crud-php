@@ -11,9 +11,9 @@ $task_name = "";
 
 // Check if the edit form has been requested
 if (isset($_POST['edit'])) {
-    $edit_mode = true; // Toggle to edit mode
-    $task_id = $_POST['id']; // Get the task ID
-    $task_name = $_POST['name']; // Get the task name
+    $edit_mode = true; 
+    $task_id = $_POST['id']; 
+    $task_name = $_POST['name'];
 }
 ?>
 <html lang="en">
